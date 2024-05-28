@@ -42,7 +42,8 @@ Clear and easy steps to create a Django Rest Framework API
 
 - adjust setting.py file
 ```
-	$add <app_name>.apps.MainConfig to INSTALLED_APPS
+	$add 'rest-framework' to INSTALLED_APPS
+	$add '<app_name>.apps.MainConfig' to INSTALLED_APPS
 	$change key
 ```
 
